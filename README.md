@@ -1,0 +1,2 @@
+# rust-candlestick
+candlestick struct
