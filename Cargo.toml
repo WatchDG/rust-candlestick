@@ -1,6 +1,6 @@
 [package]
 name = "candlestick"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["WatchDG <baranov@w3m.co>"]
 license = "MIT OR Apache-2.0"
 description = "candlestick struct"
@@ -9,3 +9,9 @@ documentation = "https://docs.rs/candlestick"
 repository = "https://github.com/WatchDG/rust-candlestick"
 readme = "README.md"
 edition = "2018"
+
+[dependencies]
+time-series = { version = "0.1", optional = true }
+
+[features]
+time_series = ["time-series"]
